@@ -1,0 +1,254 @@
+
+NON@HP850G8-NON MINGW64 ~ (branch)
+$  git clone https://github.com/fatmazaarour/lab-bash.git
+fatal: destination path 'lab-bash' already exists and is not an empty directory.
+
+NON@HP850G8-NON MINGW64 ~ (branch)
+$ ls
+'3D Objects'/
+ Amr.txt
+ Anwendungsdaten@
+ AppData/
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Druckumgebung@
+'Eigene Dateien'@
+ Favorites/
+ IntelGraphicsProfiles/
+ IronFatma/
+ IronMarta/
+ Ironfatma2/
+ Links/
+'Lokale Einstellungen'@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{d5146716-bfdf-11ec-8bc8-2811a8451941}.TM.blf
+ NTUSER.DAT{d5146716-bfdf-11ec-8bc8-2811a8451941}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{d5146716-bfdf-11ec-8bc8-2811a8451941}.TMContainer00000000000000000002.regtrans-ms
+ Netzwerkumgebung@
+ OneDrive/
+ Pictures/
+ README.md
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Startmenü@
+ Untitled.ipynb
+ Untitled1.ipynb
+ Untitled10.ipynb
+ Untitled11.ipynb
+ Untitled2.ipynb
+ Untitled3.ipynb
+ Untitled4.ipynb
+ Untitled5.ipynb
+ Untitled6.ipynb
+ Untitled7.ipynb
+ Untitled8.ipynb
+ Untitled9.ipynb
+ Videos/
+ Vorlagen@
+ Week1Day1/
+ about.txt
+ about1.txt/
+ about2.txt/
+ about695.txt/
+ about86.txt/
+ about9.txt/
+ anaconda3/
+ data.txt/
+ fatma/
+ fatma.ipynb
+ fatmazaarour/
+ file/
+ file.txt/
+ lab-bash/
+ my-repo/
+ nameOfTheFile.txt
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ sed.txt
+ test/
+
+NON@HP850G8-NON MINGW64 ~ (branch)
+$ git clone https://github.com/fatmazaarour/lab-bash.git
+fatal: destination path 'lab-bash' already exists and is not an empty directory.
+
+NON@HP850G8-NON MINGW64 ~ (branch)
+$ echo "Hello world"
+Hello world
+
+NON@HP850G8-NON MINGW64 ~ (branch)
+$ mkdir new_dir
+
+NON@HP850G8-NON MINGW64 ~ (branch)
+$ cd lab-bash
+
+NON@HP850G8-NON MINGW64 ~/lab-bash (master)
+$  echo "Hello world"
+Hello world
+
+NON@HP850G8-NON MINGW64 ~/lab-bash (master)
+$ mkdir new_dir
+
+NON@HP850G8-NON MINGW64 ~/lab-bash (master)
+$ rmdir new_dir
+
+NON@HP850G8-NON MINGW64 ~/lab-bash (master)
+$ cd lorem
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem (master)
+$ cp sed.txt...lorem-copy
+cp: missing destination file operand after 'sed.txt...lorem-copy'
+Try 'cp --help' for more information.
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem (master)
+$ cp sed.txt ../lorem-copy
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem (master)
+$ cp at
+cp: missing destination file operand after 'at'
+Try 'cp --help' for more information.
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem (master)
+$ cat sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem (master)
+$ cat at.txt
+At vero eos ET accusamus ET iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+deleniti atque corrupti quos dolores ET quas molestias excepturi sint occaecati cupiditate non
+provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum ET dolorum fuga.
+Et harum quidem rerum facilis est ET expedita distinctio.
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Temporibus autem quibusdam ET aut officiis debitis aut rerum necessitatibus saepe eveniET
+ut ET voluptates repudiandae sint ET molestiae non recusandae.
+Itaque earum rerum hic tenETur a sapiente delectus, ut aut reiciendis voluptatibus maiores
+alias consequatur aut perferendis doloribus asperiores repellat
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem (master)
+$ cat lorem.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem (master)
+$  cd ..
+
+NON@HP850G8-NON MINGW64 ~/lab-bash (master)
+$ head -3 sed.txt
+head: cannot open 'sed.txt' for reading: No such file or directory
+
+NON@HP850G8-NON MINGW64 ~/lab-bash (master)
+$ cd lorem-copy
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
+$ head -3 sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
+$ tail -3 sed.txt
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
+$  echo “Homo homini lupus.” >> sed.txt
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
+$ cad sed.txt
+bash: cad: command not found
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
+$ cat sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+“Homo homini lupus.”
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
+$ sed 'et/Et´ at,txt
+> git sed 'et/Et´ at,txt
+sed: -e expression #1, char 17: extra characters after command
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
+$
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
+$ sed 'et/Et at.txt
+> git
+> sed 'et/Et at.txt
+git ^C
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
+$  git config fatma.zaarour
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
+$ pwd
+/c/Users/NON/lab-bash/lorem-copy
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
+$ for i in *.txt; do ... done
+> git for i in *.txt; do ... done
+bash: syntax error near unexpected token `do'
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
+$ git sed.txt | xargs wc -l
+git: 'sed.txt' is not a git command. See 'git --help'.
+0
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
+$ git ls-files | xargs wc -l
+   0 .DS_Store
+   0 .gitkeep
+   0 dummy_file.txt
+   0 total
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
+$ lorem* | wc -l
+bash: lorem.txt: command not found
+0
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
+$ store read Fatma
+bash: store: command not found
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
+$ git store read Fatma
+git: 'store' is not a git command. See 'git --help'.
+
+The most similar command is
+        restore
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
+$ read fatma
+
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
+$ mkdir fatma
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
+$ rmdir fatma
+
+NON@HP850G8-NON MINGW64 ~/lab-bash/lorem-copy (master)
